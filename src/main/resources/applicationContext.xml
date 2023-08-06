@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- Bean for AccountService -->
+    <bean id="accountService" class="com.example.service.AccountServiceImpl" />
+
+    <!-- Aspect bean for LoggingAspect -->
+    <bean id="loggingAspect" class="com.example.aspect.LoggingAspect" />
+
+    <!-- Enable Spring AOP -->
+    <aop:aspectj-autoproxy />
+</beans>
