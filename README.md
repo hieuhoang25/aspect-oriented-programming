@@ -1,4 +1,5 @@
 # Aspect Oriented Programming
+[Reference Document](https://docs.spring.io/spring-framework/docs/2.5.5/reference/aop.html)
 ![Alt text](https://freelancervietnam.vn/wp-content/uploads/2019/11/gioi-thieu-aop.jpg)
 ## 1. What is AOP
 AOP là kiểu lập trình cho phép phân tách chương trình thành các module tách biệt, không phụ thuộc nhau. Chương trình kết hợp các module lại khi hoạt động, nhằm thực hiện các chức năng. Tuy nhiên, chỉ cần chỉnh sửa một module nào đó nếu cần sửa đổi chức năng.
